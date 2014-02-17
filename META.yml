@@ -1,0 +1,25 @@
+---
+abstract: 'A post processor to defer partial template rendering'
+author:
+  - 'Companies House <chgovuk@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: MojoX-Renderer-IncludeLater
+no_index:
+  directory:
+    - t
+    - inc
+    - t
+requires:
+  Mojolicious: 4.81
+resources:
+  repository: https://github.com/companieshouse/MojoX-Renderer-IncludeLater
+version: 0.01
